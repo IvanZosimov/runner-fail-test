@@ -21,8 +21,8 @@ jobs:
       with:
         dotnet-version: 7.0.x
     - name: Restore dependencies
-      run: dotnet restore Loader/Doader.sln
+      run: dotnet restore Loader/Loader.sln
     - name: Build
-      run: dotnet build Loader/Doader.sln --no-restore
+      run: dotnet build Loader/Loader.sln --no-restore
     - name: Test
       run: dotnet test Loader/Doader.sln --no-build --verbosity normal
