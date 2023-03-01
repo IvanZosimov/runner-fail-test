@@ -22,5 +22,10 @@ namespace FileLoader.Tests
                 .Single(x => x.EndsWith(resourceNameEnding));
             return ResourcesAssembly.GetManifestResourceStream(embeddedResourceName);
         }
+        
+        public static string[] GetResourceNames()
+        {
+            return ResourcesAssembly.GetManifestResourceNames();
+        }
     }
 }
