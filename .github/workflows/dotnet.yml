@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: dotnet build Loader/Loader.sln --no-restore
     - name: Test
-      run: dotnet test Loader/Doader.sln --no-build --verbosity normal
+      run: dotnet test Loader/Loader.sln --no-build --verbosity normal
