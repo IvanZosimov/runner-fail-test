@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
-using System.Xml.Schema;
 using System.Xml;
+using System.Xml.Schema;
 
 namespace FileLoader.Tests
 {
@@ -22,7 +22,7 @@ namespace FileLoader.Tests
                 .Single(x => x.EndsWith(resourceNameEnding));
             return ResourcesAssembly.GetManifestResourceStream(embeddedResourceName);
         }
-        
+
         public static string[] GetResourceNames()
         {
             return ResourcesAssembly.GetManifestResourceNames();
