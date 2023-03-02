@@ -18,7 +18,7 @@ namespace FileLoader.Tests
             string[] resources = ResourceLoaderHelper.GetResourceNames();
             foreach (string resource in resources)
             {
-                _testOutputHelper.WriteLine(resource);
+                _testOutputHelper.WriteLine("Resource: {0}", resource);
             }
 
             string file = ResourceLoaderHelper.LoadTestDataAsString(filePath);
