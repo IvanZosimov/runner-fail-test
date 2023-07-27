@@ -9,7 +9,7 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Include="..\..\testdata\Model\**\*.*">
+		<EmbeddedResource Include="testdata\Model\**\*.*">
 			<LinkBase>testData\Model</LinkBase>
 		</EmbeddedResource>
 	</ItemGroup>
