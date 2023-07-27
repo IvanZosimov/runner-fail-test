@@ -11,8 +11,8 @@ namespace FileLoader.Tests
         }
 
         [Theory]
-        [InlineData("Model/Metadata/example.json")]
-        [InlineData("Model/Metadata/example.metadata.json")]
+        [InlineData("testdata/Model/Metadata/example.json")]
+        [InlineData("testdata/Model/Metadata/example.metadata.json")]
         public void EmbeddedFile_ShouldExist(string filePath)
         {
             string[] resources = ResourceLoaderHelper.GetResourceNames();
