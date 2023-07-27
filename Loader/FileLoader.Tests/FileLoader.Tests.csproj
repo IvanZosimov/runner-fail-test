@@ -10,7 +10,7 @@
 
 	<ItemGroup>
 		<EmbeddedResource Include="..\..\testdata\Model\**\*.*">
-			<LinkBase>TestData\Model</LinkBase>
+			<LinkBase>testData\Model</LinkBase>
 		</EmbeddedResource>
 	</ItemGroup>
 
